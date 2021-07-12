@@ -6,6 +6,13 @@ const theme = createTheme({
       main: "#ff0000",
     },
   },
+  components: {
+    MuiButton: {
+      defaultProps: {
+        disableElevation: true,
+      },
+    },
+  },
 });
 
 export default theme;
